@@ -1,0 +1,298 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding-bottom: 100px;
+    background:#414141;
+    text-align: center;
+    color: #e4e4e498;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+h1,
+h2,
+h3 {
+    font-family:Arial, Helvetica, sans-serif;
+    color: #E4E4E4;
+    font-weight: 700;
+    font-style: normal;  
+     
+}
+
+
+h1{
+  font-size: 74px;
+  line-height: 82px;
+}
+
+h2{
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 54px;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: #e4e4e498;
+}
+
+.container {
+    width: 1180px;
+    margin: 0px auto 200px auto;
+    
+}
+
+
+.sP {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.imgIcon {
+    width: 50px;
+    margin-top: -20px;
+    margin-right: 5px;
+}
+
+
+
+.headMain{
+    margin-bottom: 0px;
+    
+    
+}
+
+.headText{
+    text-align: left;
+    margin-right: 125px;
+    margin-bottom: 100px;
+    color: #000;
+    
+}
+
+
+header{
+    padding-top: 50px;        
+    background: #2A2A2A url(img/myImg.png) no-repeat right bottom;
+  }
+
+.headBtn{
+  margin-top: 20px;
+  width: 10em;
+  background: linear-gradient(87.32deg, #E2A300 4.47%, #E29500 95.53%);
+  box-shadow: 0px 2px 13px rgba(226, 158, 0, 0.48);
+  border-radius: 8px;
+  align-items: center;
+  height: 2.7em;
+  display: flex;
+  justify-content: center;
+  color: #000;
+}
+
+.main{
+  margin-top: 100px;
+}
+
+.skill{
+  width: 55px;
+  height: 75px;
+  background: #2C2C2C;
+  margin: 20px;
+  padding: 25px 30px;
+  border-radius: 10px;
+}
+
+ .sec{
+  justify-content: center;
+  display: flex;
+    text-align: center;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.imgMe{
+  width: 250px;
+  height: 250px;
+  padding: 10px;
+  border-radius: 10px;
+  background: #252525;
+}
+.imgMe:first-child{
+  margin-bottom: 100px;
+}
+
+.aboutText{
+  padding: 0px 50px 50px 50px;
+  border-radius: 10px;
+  background: #2C2C2C;
+  margin-bottom: 100px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+}
+
+.aboutText h2{
+  margin-top: 0px;
+}
+
+.aboutMe{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background: url(img/Ellips.png) no-repeat center / cover;
+  background-size: contain;
+}
+
+.aboutMeDiv:first-child{
+  margin-top: -50px;
+  margin-left: 100px;
+  margin-right: -30px;
+  z-index: 99;
+}
+
+.aboutMeDiv:last-child .imgMe{
+  height: 350px;
+  margin-left: -20px;
+  margin-top: 100px;
+  margin-right: 100px;
+}
+
+
+
+.imgMe:nth-child(2){
+  margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .container {
+    width: 960px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .container {
+    width: 720px;
+  }
+
+  .aboutMe{
+    display: block;
+     background: url(img/Ellips.png) top / 100%;
+     background-repeat:round;
+     
+  }
+
+  .aboutMeDiv:first-child{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0;
+  }
+}
+
+
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: 540px;
+    
+  }
+  .sP {
+    display: block;
+  }
+
+  .main{
+   margin-top: 200px;
+  }
+  
+ header{
+   padding-bottom: 20px;
+   background-size: 90%;
+ } 
+
+.sec{
+   display: block;
+ }
+
+
+ .headText{
+   margin-bottom: 0;
+ }
+
+ 
+  nav{
+    display: none;
+  }
+
+  .skills{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  H1{
+    font-size: 52px;
+    line-height: 52px
+  }
+  
+  .aboutMe{
+    display: block;
+    
+  }
+
+  .aboutText{
+    padding: 0 10px 50px 10px;
+  }
+
+  .aboutMeDiv:first-child{
+    display: block;
+    
+  }
+  
+  .aboutMeDiv:last-child{
+    margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .container {
+    width: 90%;
+    padding: 0 5px;
+    font-size: 18px;
+  }
+
+  .headText div{
+    padding-right: 5px;
+    border: solid red 1px;
+  }
+
+  .sP {
+    display: block;
+  }
+
+ 
+  
+}
