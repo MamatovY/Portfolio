@@ -277,7 +277,7 @@ nav{
 
   .aboutMeDiv:first-child{
     display: block;
-    
+    margin-left: 100px;
   }
   
   .aboutMeDiv:last-child{
@@ -301,6 +301,8 @@ nav{
     display: block;
   }
 
- 
+  .aboutMeDiv:first-child {
+    margin-left: 0;
+  }
   
 }
