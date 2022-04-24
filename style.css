@@ -182,7 +182,7 @@ nav{
 
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .container {
     width: 1140px;
   }
