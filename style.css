@@ -192,6 +192,14 @@ nav{
   .container {
     width: 960px;
   }
+
+  .aboutMeDiv:first-child{
+    margin-left: 0;
+  }
+
+  .aboutMeDiv:last-child .imgMe{
+    margin-right: 0;
+  }
 }
 
 @media screen and (max-width: 991px) {
