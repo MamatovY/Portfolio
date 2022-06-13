@@ -99,13 +99,15 @@ header {
 }
 
 .skill {
-  width: 55px;
+  width: 85px;
   height: 75px;
   background: #2C2C2C;
   margin: 20px;
-  padding: 25px 30px;
+  padding: 25px 30px 40px 30px;
   border-radius: 10px;
 }
+
+
 
 .sec {
   justify-content: center;
