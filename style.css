@@ -192,12 +192,10 @@ nav {
 }
 
 
+
 .portWorks {
   margin-right: 50px;
   max-width: 450px;
-
-
-
 }
 
 .portWorks img {
@@ -208,11 +206,10 @@ nav {
 
 .portText {
   max-width: 450px;
-
-
 }
 
 .portMain {
+  position: relative;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -224,6 +221,28 @@ nav {
 .portMain h2 {
   margin-top: 0;
 }
+
+.btn {
+  position: absolute;
+  background: linear-gradient(87.32deg, #E2A300 4.47%, #E29500 95.53%);
+  color: #E4E4E4;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  top: 50%;
+  font-size: 30px;
+  padding: 5px 5px 0px 5px;
+}
+
+.btn1 {
+  left: -5%;
+}
+
+.btn2 {
+  right: -5%;
+}
+
+
 
 .footMain {
   display: flex;
@@ -250,6 +269,8 @@ nav {
 
 
 
+
+
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 1140px;
@@ -261,7 +282,13 @@ nav {
     max-width: 960px;
   }
 
+  .btn1 {
+    left: -5%;
+  }
 
+  .btn2 {
+    right: -5%;
+  }
 
   .aboutMeDiv:last-child .imgMe {
     margin-right: 10px;
@@ -313,6 +340,14 @@ nav {
   .aboutMeDiv:last-child .imgMe {
     left: 0;
 
+  }
+
+  .btn1 {
+    left: 0px;
+  }
+
+  .btn2 {
+    right: 0px;
   }
 }
 
@@ -378,9 +413,11 @@ nav {
 
   .aboutMeDiv:first-child {
     display: block;
-
   }
 
+  .btn {
+    top: 60%;
+  }
 }
 
 @media screen and (max-width: 575px) {
@@ -407,5 +444,17 @@ nav {
 
   .footMain {
     display: block;
+  }
+
+  .btn {
+    top: 30%;
+  }
+
+  .btn1 {
+    left: -8%;
+  }
+
+  .btn2 {
+    right: -8%;
   }
 }
