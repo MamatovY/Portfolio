@@ -52,11 +52,17 @@ a {
   text-align: center;
 }
 
+
+
+
+
 .imgIcon {
   width: 50px;
   margin-top: -20px;
   margin-right: 5px;
 }
+
+
 
 
 
@@ -114,11 +120,60 @@ header {
   text-align: center;
 }
 
-
-nav {
+.headNav {
   display: flex;
   justify-content: space-between;
+}
+
+
+nav {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  margin-left: 20px;
+}
+
+
+
+
+.burgerActive {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  display: flex;
+  height: 100%;
+  width: 35%;
+  background: #636363;
+  border-radius: 10px;
+  padding-left: 5px;
+  z-index: 3;
+}
+
+.burgerIcons {
+  width: 35px;
+  height: 5px;
+  background-color: #FFF;
+  margin: 6px 0;
+}
+
+.burgerIc {
+  display: none;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.burgerMenu {
+  display: block;
+  margin: 50px auto auto auto;
   text-align: center;
+}
+
+.burgerMenu div {
+  margin-top: 50px;
 }
 
 .imgMe {
@@ -161,7 +216,7 @@ nav {
   top: -10px;
   right: -30px;
   margin-top: -50px;
-  z-index: 99;
+  z-index: 2;
 }
 
 .aboutMeDiv:last-child .imgMe {
@@ -363,6 +418,8 @@ nav {
     display: block;
   }
 
+
+
   .main {
     margin-top: 200px;
   }
@@ -381,9 +438,16 @@ nav {
     margin-bottom: 0;
   }
 
-
   nav {
     display: none;
+  }
+
+  .icon {
+    display: none;
+  }
+
+  .burgerIc {
+    display: block;
   }
 
   .skills {
