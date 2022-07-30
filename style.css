@@ -277,7 +277,7 @@ nav a:hover {
 
 .slideImg3 {
   transition: all 1.5s ease 0s;
-  transform: translate(300%, 0);
+  transform: translate(-500%, 0);
 }
 
 
@@ -531,6 +531,7 @@ nav a:hover {
   }
 
   .aboutText {
+    margin: 0 50px;
     padding: 0 10px 50px 10px;
   }
 
@@ -541,6 +542,8 @@ nav a:hover {
   .btn {
     top: 60%;
   }
+
+
 }
 
 @media screen and (max-width: 575px) {
@@ -579,5 +582,9 @@ nav a:hover {
 
   .btn2 {
     right: -8%;
+  }
+
+  .aboutText {
+    margin: 0 10px;
   }
 }

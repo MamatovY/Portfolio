@@ -14,12 +14,13 @@ $(document).ready(function(){
     }
 
     window.addEventListener('scroll', function(){
-        console.log(pageYOffset);
+       
         if (pageYOffset>1400 && pageYOffset<2200 ) {
-            $(".aboutText").slideDown(1500);
-        $(".slideImg1").css("transform", "translate(10%, 0)");
-        $(".slideImg2").css("transform", "translate(0%, 0)");
-        $(".slideImg3").css("transform", "translate(-10%, 0)");
+            
+        $(".slideImg1").css("transform", "translate(0, 0)");
+        $(".slideImg2").css("transform", "translate(0, 0)");
+        $(".slideImg3").css("transform", "translate(0, 0)");
+        $(".aboutText").slideDown(2500);
         }
     
 
