@@ -509,6 +509,11 @@ nav a:hover {
     display: block;
   }
 
+  .headNav {
+    transition: all 1s ease 0s;
+    transform: translate(100%, 0);
+  }
+
   .skills {
     display: flex;
     justify-content: center;

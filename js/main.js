@@ -41,6 +41,7 @@ $(document).ready(function(){
         e.preventDefault();
         $(".headNav").toggleClass('burgerActive');
         $("nav").toggleClass('burgerMenu');
+        $(".headNav").css("transform", "translate(0, 0)");
         
 
         
