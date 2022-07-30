@@ -181,7 +181,7 @@ nav a:hover {
 
 .burgerIc {
   display: none;
-  position: absolute;
+  position: fixed;
   z-index: 10;
   top: 5px;
   right: 5px;
@@ -591,5 +591,9 @@ nav a:hover {
 
   .aboutText {
     margin: 0 10px;
+  }
+
+  .burgerActive {
+    width: 45%;
   }
 }
