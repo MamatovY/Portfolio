@@ -20,7 +20,7 @@ $(document).ready(function(){
         $(".slideImg1").css("transform", "translate(0, 0)");
         $(".slideImg2").css("transform", "translate(0, 0)");
         $(".slideImg3").css("transform", "translate(0, 0)");
-        $(".aboutText").slideDown(2500);
+        $(".aboutText").slideDown(1500);
         }
     
 
