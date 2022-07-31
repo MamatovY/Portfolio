@@ -36,6 +36,7 @@ img {
 }
 
 a {
+  display: block;
   text-decoration: none;
   color: #e4e4e498;
 }
@@ -105,11 +106,13 @@ header {
   margin-top: 100px;
 }
 
+
+
 .skill {
   width: 85px;
   height: 75px;
   background: #2C2C2C;
-  margin: 20px;
+  margin: 10px;
   padding: 25px 30px 40px 30px;
   border-radius: 10px;
 }
@@ -276,6 +279,7 @@ nav a:hover {
 }
 
 .slideImg3 {
+  margin-left: -20px;
   transition: all 1.5s ease 0s;
   transform: translate(-500%, 0);
 }
@@ -286,7 +290,7 @@ nav a:hover {
 
 
 .portfolio {
-  overflow: hidden;
+
   background: #2A2A2A;
   padding: 50px;
   font-style: normal;
@@ -296,9 +300,14 @@ nav a:hover {
 
 }
 
+.portfolio .container {
+  position: relative;
+}
+
 
 
 .portWorks {
+
   margin-right: 50px;
   max-width: 450px;
 }
@@ -315,7 +324,7 @@ nav a:hover {
 
 .portMain {
 
-
+  overflow: hidden;
   position: relative;
   display: flex;
   justify-content: center;
@@ -330,7 +339,7 @@ nav a:hover {
 }
 
 .btn {
-
+  z-index: 20;
   background: linear-gradient(87.32deg, #E2A300 4.47%, #E29500 95.53%);
   color: #E4E4E4;
   width: 40px;
@@ -375,7 +384,7 @@ nav a:hover {
 }
 
 .space {
-  margin: 25px;
+  margin: 25px 0;
   font-size: 20px;
   text-align: left;
 }
@@ -418,9 +427,7 @@ nav a:hover {
     right: -5%;
   }
 
-  .aboutMeDiv:last-child .imgMe {
-    margin-right: 10px;
-  }
+
 }
 
 @media screen and (max-width: 991px) {
@@ -465,9 +472,8 @@ nav a:hover {
     width: auto;
   }
 
-  .aboutMeDiv:last-child .imgMe {
-    left: 0;
-
+  .slideImg3 {
+    margin-left: 0;
   }
 
   .btn1 {
