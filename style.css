@@ -286,12 +286,14 @@ nav a:hover {
 
 
 .portfolio {
+  overflow: hidden;
   background: #2A2A2A;
   padding: 50px;
   font-style: normal;
   font-weight: 300;
   font-size: 21px;
   line-height: 29px;
+
 }
 
 
@@ -312,6 +314,8 @@ nav a:hover {
 }
 
 .portMain {
+
+
   position: relative;
   display: flex;
   justify-content: center;
@@ -364,9 +368,16 @@ nav a:hover {
   margin-top: 50px;
 }
 
+.footIcons {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+}
+
 .space {
   margin: 25px;
   font-size: 20px;
+  text-align: left;
 }
 
 .href {
