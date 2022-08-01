@@ -307,23 +307,20 @@ nav a:hover {
 
 
 .portWorks {
-
   margin-right: 50px;
-  max-width: 450px;
+  width: 450px;
 }
 
 .portWorks img {
   border-radius: 30px;
-
 }
 
 
 .portText {
-  max-width: 450px;
+  width: 450px;
 }
 
 .portMain {
-
   overflow: hidden;
   position: relative;
   display: flex;
@@ -337,6 +334,15 @@ nav a:hover {
 .portMain h2 {
   margin-top: 0;
 }
+
+.portSlide {
+  display: flex;
+  transform: translate(0, 0);
+  margin: 0 100px;
+}
+
+
+
 
 .btn {
   z-index: 20;
@@ -452,9 +458,10 @@ nav a:hover {
     padding: 50px 10px;
   }
 
-  .portMain {
+  .portSlide {
     display: block;
   }
+
 
   .portWorks {
     margin-right: 0;
@@ -615,5 +622,23 @@ nav a:hover {
 
   .burgerActive {
     width: 45%;
+  }
+
+  .portText {
+    width: 350px;
+  }
+
+  .portWorks {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 445px) {
+  .portText {
+    width: 250px;
+  }
+
+  .portWorks {
+    width: 250px;
   }
 }
