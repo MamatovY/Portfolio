@@ -30,10 +30,10 @@
           </div>
 
           <nav>
-            <a href="#"><div>Home</div></a>
-            <a href="#"><div>Obout me</div></a>
-            <a href="#"><div>Portfolio</div></a>
-            <a href="#"><div>Contact</div></a>
+            <a href="#home"><div>Home</div></a>
+            <a href="#oboutMe"><div>Obout me</div></a>
+            <a href="#portfolio"><div>Portfolio</div></a>
+            <a href="#contact"><div>Contact</div></a>
           </nav>
         </div>
       </div>
@@ -51,7 +51,7 @@
             Тогда свяжитесь.
             со мной
           </div>
-          <a href="#">
+          <a href="#contact">
             <div class="headBtn">
               Contact me
             </div>
@@ -62,15 +62,15 @@
 
 
     <section class="main">
-      <div class="skills container">
+      <div id="home" class="skills container">
         <div class="sec">
-          <a href="#" class="skill">
+          <a href="#portfolio" class="skill">
             <img src="img/bi_display.svg" alt="">
             <div>
               Front-end
             </div>
           </a>
-          <a href="#" class="skill">
+          <a href="https://github.com/MamatovY/mismatch.git" class="skill">
             <img src="img/bx_bx-code-alt.svg" alt="">
             <div>
               Back-end
@@ -82,7 +82,7 @@
               Icons
             </div>
           </a>
-          <a href="#" class="skill">
+          <a href="#oboutMe" class="skill">
             <img src="img/ic_baseline.svg" alt="">
             <div>
               My photos
@@ -111,7 +111,7 @@
         </div>
       </div>
 
-      <div class="aboutMe container">
+      <div id="oboutMe" class="aboutMe container">
         <div class="aboutMeDiv">
           <div class="imgMe slideImg1">
 
@@ -127,7 +127,9 @@
         </div>
 
         <div class="aboutText">
+
           <h2>About me</h2>
+
           Hello again everyone! So, you already know that my name is Yiman. A
           little about myself: 20 y.o., I love creativity since childhood, I
           live in Osh, Kyrgyzstan, diploma of secondary education (programmer /
@@ -144,6 +146,7 @@
           for your project, save your nerves and time. If you are interested in
           me , you want to know something more or use my services, then I will
           provide all my contacts below.
+
         </div>
 
         <div class="aboutMeDiv">
@@ -156,23 +159,22 @@
 
     <section class="portfolio">
       <div class="container">
-        <a href="#">
-          <div class="btn1 btn">&#8592;</div>
-        </a>
-        <h2>PORTFOLIO</h2>
+
+        <h2 id="portfolio">PORTFOLIO</h2>
 
 
-        <div class="portMain">
+        <div class="portMain slider">
+
 
           <div class="portSlide">
             <div class="portWorks">
-              <a href="#">
-                <img src="img/portImg.png" alt="">
+              <a href="https://mamatovy.github.io/Property/">
+                <img src="img/property.jpg" alt="">
               </a>
             </div>
 
             <div class="portText">
-              <h2>Landing Ice-cream!</h2>
+              <h2>House sale</h2>
 
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Donec ut orci eu elit consequat posuere ut sed elit.
@@ -189,13 +191,13 @@
 
           <div class="portSlide">
             <div class="portWorks">
-              <a href="#">
-                <img src="img/portImg.png" alt="">
+              <a href="https://mamatovy.github.io/Online-course/">
+                <img src="img/onlineCourse.jpg" alt="">
               </a>
             </div>
 
             <div class="portText">
-              <h2>Landing Ice-cream!2</h2>
+              <h2>Online course</h2>
 
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Donec ut orci eu elit consequat posuere ut sed elit.
@@ -212,13 +214,13 @@
 
           <div class="portSlide">
             <div class="portWorks">
-              <a href="#">
-                <img src="img/portImg.png" alt="">
+              <a href="https://mamatovy.github.io/BattleShip2.0/">
+                <img src="img/battleship.jpg" alt="">
               </a>
             </div>
 
             <div class="portText">
-              <h2>Landing Ice-cream!</h2>
+              <h2>Battleship</h2>
 
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Donec ut orci eu elit consequat posuere ut sed elit.
@@ -232,15 +234,16 @@
               arcu gravida vel.
             </div>
           </div>
+
           <div class="portSlide">
             <div class="portWorks">
-              <a href="#">
-                <img src="img/portImg.png" alt="">
+              <a href="https://mamatovy.github.io/WebMaster/">
+                <img src="img/webMaster.jpg" alt="">
               </a>
             </div>
 
             <div class="portText">
-              <h2>Landing Ice-cream!</h2>
+              <h2>Web master</h2>
 
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Donec ut orci eu elit consequat posuere ut sed elit.
@@ -254,36 +257,14 @@
               arcu gravida vel.
             </div>
           </div>
-          <div class="portSlide">
-            <div class="portWorks">
-              <a href="#">
-                <img src="img/portImg.png" alt="">
-              </a>
-            </div>
 
-            <div class="portText">
-              <h2>Landing Ice-cream!</h2>
 
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Donec ut orci eu elit consequat posuere ut sed elit.
-              Nulla et tristique felis. Morbi quis orci non purus
-              blandit fringilla. Etiam et mollis eros. Duis venenatis
-              vulputate lacus, non tristique eros placerat vel. Nam
-              nec magna lacus. Etiam euismod egestas mauris nec
-              mollis. Phasellus efficitur et ex vel condimentum. Cras
-              enim purus, tempor sed massa vel, accumsan bibendum
-              magna. Nullam hendrerit cursus purus, sit amet viverra
-              arcu gravida vel.
-            </div>
-          </div>
 
 
 
 
         </div>
-        <a href="#">
-          <div class="btn2 btn">&#8594;</div>
-        </a>
+
       </div>
 
     </section>
@@ -295,7 +276,7 @@
 
 
     <footer>
-      <div class="footMain container">
+      <div id="contact" class="footMain container">
         <div>
           <div class="space">
             Contacts:
@@ -345,5 +326,6 @@
 
     <script src="js/jquery.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/slick.min.js"></script>
   </body>
 </html>
