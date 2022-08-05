@@ -411,7 +411,7 @@ nav a:hover {
 }
 
 .slider .slick-arrow {
-  z-index: 20;
+  z-index: 2;
   background: linear-gradient(87.32deg, #E2A300 4.47%, #E29500 95.53%);
   color: #E4E4E4;
   width: 40px;
@@ -422,6 +422,7 @@ nav a:hover {
   padding: 5px 5px 0px 5px;
   border: none;
   position: absolute;
+  cursor: pointer;
 }
 
 .slider .slick-arrow.slick-prev {
@@ -453,6 +454,7 @@ nav a:hover {
   background: linear-gradient(87.32deg, #E2A300 4.47%, #E29500 95.53%);
   border-radius: 50%;
   border: none;
+  cursor: pointer;
 }
 
 .slider .slick-dots li.slick-active button {
