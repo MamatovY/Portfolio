@@ -457,8 +457,37 @@ nav a:hover {
 
 .slider .slick-dots li.slick-active button {
   background: #FFF;
-
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FFF;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00C4F0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
